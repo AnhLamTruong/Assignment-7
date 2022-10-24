@@ -1,0 +1,11 @@
+#### Course Schedule
+
+I was using DFS to search through each node in the Graph and using HashMap to store the list of
+prerequisites. A set was used to store the course that have been scheduled, and to check if there is a
+loop inside the graph.
+Time complexity: O(N+P). N is the number od course, and P is the number of prerequisites.
+
+#### Network Delay Time
+
+I was using BFS to go through each node in the Graph and using HashMap containing MinHeap to store the path, if I found the samller Path I pop it out of the minHeap and return the shortest path store in the global variables.
+Time complexity: O(NlogV) where N is the number of node in the graph, and V is the number of neighbours of the node in the graph.
